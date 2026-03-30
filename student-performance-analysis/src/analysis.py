@@ -25,29 +25,6 @@ print("Clean file saved!")
 
 
 
-# cols = ["city", "listing_type", "rating_overall" , "ttm_revenue", "superhost" ]
-# # print(df[cols].isnull().sum())
-
-# df["city"] = df["city"].fillna("Unknown")
-# # print(df["city"].isnull().sum())
-# df["listing_type"] = df["listing_type"].fillna("Unknown")
-# df["rating_overall"] = df["rating_overall"].fillna(df["rating_overall"].mean())
-# df["ttm_revenue"] = df["ttm_revenue"].fillna(df["ttm_revenue"].mean())
-# df["superhost"] = df["superhost"].fillna("Unknown")
-
-# print(df[cols].isnull().sum())
-
-# print(df["city"].value_counts().head(10))
-# print(df["listing_type"].value_counts())
-# print(df["superhost"].value_counts())
-# print(df["rating_overall"].mean())
-# print(df.groupby("listing_type")["ttm_revenue"].mean())
-      
-
-
-
-
-
 
 
 
